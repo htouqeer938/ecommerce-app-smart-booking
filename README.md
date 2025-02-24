@@ -15,17 +15,30 @@ npm run dev
 The app will be available at http://localhost:3000.
 
 # 📂 Project Structure
+## 📂 Project Structure
 
-frontend/
-│── src/
-│   ├── app/
-│   │   ├── admin/orders/  # Orders Page
-│   ├── components/
-│   │   ├── AdminGuard.tsx  # Protects routes for admins
+```plaintext
+ecommerce-admin/
+│── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── server.js
+│   │   ├── .env
+│   │   ├── package.json
+│── frontend/
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── admin/orders/  # Orders Page
+│   │   ├── components/
+│   │   │   ├── AdminGuard.tsx  # Protects routes for admins
 │   │   ├── utils/
 │   │   │   ├── fetchOrders.ts  # API call for fetching orders
 │   ├── package.json
 │   ├── README.md
+```
+
 
 #📡 API Routes
 Method	Endpoint	Description
